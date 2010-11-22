@@ -1,4 +1,6 @@
 Topgeek::Application.routes.draw do
+  match 'weibo' => 'home#weibo'
+  match 'about' => 'home#about'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
